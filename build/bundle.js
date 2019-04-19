@@ -144,13 +144,13 @@ module.exports =
 /***/ function(module, exports) {
 
 	module.exports = {
-		"title": "Auth0 Extension Boilerplate with API",
-		"name": "auth0-extension-boilerplate-with-api",
+		"title": "Auth0 Extension POC with API",
+		"name": "auth0-extension-poc-with-api",
 		"version": "1.0.0",
 		"author": "auth0",
 		"description": "This is a Hello World extension",
 		"type": "application",
-		"repository": "https://github.com/auth0/auth0-extension-boilerplate-with-api",
+		"repository": "https://github.com/qheinicken/auth0-extension-poc",
 		"keywords": [
 			"auth0",
 			"extension"
