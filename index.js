@@ -52,6 +52,16 @@ app.get('/', function (req, res) {
     '         document.getElementById("apiToken").innerText = apiToken;',
     '       }',
     '    </script>',
+    '    <p><strong>req</strong></p>',
+    '    <textarea rows="10" cols="100" id="req"></textarea>',
+    '    <script type="text/javascript">',
+    '       document.getElementById("req").innerText = req;',
+    '    </script>',
+    '    <p><strong>res</strong></p>',
+    '    <textarea rows="10" cols="100" id="res"></textarea>',
+    '    <script type="text/javascript">',
+    '       document.getElementById("res").innerText = res;',
+    '    </script>',
     '  </body>',
     '</html>'
   ].join('\n');
