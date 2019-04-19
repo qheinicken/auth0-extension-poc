@@ -77,7 +77,7 @@ module.exports =
 
 	app.use('/api', api);
 
-	app.use(auth0({
+	api.use(auth0({
 	  scopes: 'read:connections',
 	  apiToken: {
 	    payload: function payload(req, res, next) {
